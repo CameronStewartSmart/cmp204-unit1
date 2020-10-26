@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/multi-countdown.js"></script>
+    <link rel="stylesheet" href="css/cookieBubble.min.css">
+
+    <title>Tours</title>
+</head>
+    
+    
+<body>
+    <!-- COOKIE POP UP START -->
+    <script src="js/cookieBubble.min.js"></script>
+    <script>
+        (function ($) {
+                $.cookieBubble();
+        })(jQuery);
+    </script>
+    <!-- COOKIE POP UP END -->
+    
+    <!-- JUMBOTRON START -->
+    <div class="jumbotron text-center" id="jumbotron">
+        <h1>Upcoming Tours</h1>
+    </div>
+    <!-- JUMBOTRON END -->
+    
+    <!-- NAVBAR START -->
+    
+    <div id="navbar">
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <a class="navbar-brand hvr-grow" href="index.html">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="images/icons/menu.png" width="30" height="30" alt="Menu button">
+        </button>
+        
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <a class="navbar-brand hvr-grow" href="https://www.instagram.com/billieeilish/">
+                    <img src="images/icons/instagram.png" width="30" height="30" alt="Instagram" loading="lazy">
+                </a>
+                <a class="navbar-brand hvr-grow" href="https://twitter.com/billieeilish">
+                    <img src="images/icons/twitter.png" width="30" height="30" alt="Twitter" loading="lazy">
+                </a>
+                <a class="navbar-brand hvr-grow" href="https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH">
+                    <img src="images/icons/spotify.png" width="30" height="30" alt="Spotify" loading="lazy">
+                </a>
+                <li class="nav-item active">
+                    <a class="nav-link hvr-grow" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hvr-grow" href="merchandise.html">Merchandise</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hvr-grow" href="tours.html">Tours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hvr-grow" href="albums.php">Albums and Singles</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    
+    <!-- NAVBAR END -->
+    
+    <!-- CONTENT START -->
+    <div class="container-fluid mx-auto" id="TimerArea">
+        <div class="row mx-auto">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10 text-center" id="Timer">
+        
+                <div class="countdown hero_count" data-Date='2020/12/10 13:37:53'>
+                    <script>
+                        $('.hero_count').attr('data-date', dateText);
+                    </script>
+                    <div class="running">
+                        <timer>Time left to buy tickets:<br><span class="days"></span> Days, <span class="hours"></span> Hours, <span class="minutes"></span> Minutes and <span class="seconds"></span> Seconds</timer>
+                    </div>
+                    
+                    <div class="ended">
+                        <h2 class="mx-auto">Time is up, better luck next time!</h2>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    
+    <div class="container" id="tickets">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2>Buy Tickets Today</h2><br>
+                <button id="buyButton" class="hvr-grow">Continue to Ticket Vendor</button>
+                <script>
+                    $("#buyButton").click(function(){
+                        alert("Were you about to give money to a fake website??? Please be careful on the internet...")
+                    }
+                    );
+                </script> 
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- CONTENT END -->
+    
+    <!-- FOOTER START -->
+    
+    <div class="jumbotron text-center" id="footer">
+        <h4>CMP204 Assessment. Cameron Smart 2020</h4>
+    </div>
+    
+    <!-- FOOTER END -->
+    
+    <!-- JS: must be at end of body -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- END JS -->
+    
+</body>
+
+</html>

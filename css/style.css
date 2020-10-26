@@ -1,0 +1,155 @@
+@font-face {
+    font-family: barbatrick;
+    src: url(fonts/Barbatrick.otf);
+}
+
+body {
+    background-color: black;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.jumbotron{
+    font-family: barbatrick;
+    background-color: black;
+    color: limegreen;
+    border-radius: 0px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.setBlue {
+    color: blue;
+}
+
+#footer {
+    color: black;
+    background-color: limegreen;
+    position: absolute;
+    bottom: bottom;
+    width: 100%;
+    height: 180px;
+}
+
+.container-fluid.full-width {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    font-family: barbatrick;
+    background-color: black;
+    color: limegreen;
+    font-size: 25px;
+}
+
+a { 
+    padding-top: 0px;
+    color: limegreen;
+    font-family: barbatrick;
+}
+
+nav img {
+    filter: invert(73%) sepia(35%) saturate(4363%) hue-rotate(71deg) brightness(98%) contrast(81%);
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    color: limegreen;
+    padding-top: 15px;
+}
+
+#Timer {
+    padding-top: 100px;
+    color: limegreen;
+    font-family: barbatrick;
+    font-size: 40pt;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+#TimerArea {
+    padding-top:300px;
+    background-image: url(../images/Tour.jpg) ;
+    background-size: cover;
+    height: 900px;
+}
+
+#tickets h2 {
+    padding-top: 100px;
+    color: white;
+}
+
+#tickets {
+    padding-bottom: 100px;
+}
+
+#divOne {
+    color: white;
+    padding-bottom: 50px;
+}
+
+#divTwo h4 {
+    padding-top: 10px;
+}
+
+#albums {
+     padding-top: 40px;
+}
+
+#cover {
+    margin-top:30px;margin-bottom:30px;
+}
+#items .row {
+    padding-bottom: 50px;
+}
+
+.yellow {
+    background-color: RGB(233,214,127);
+}
+
+.red {
+    background-color: RGB(245,33,56);
+}
+
+.grey {
+    background-color: RGB(50,48,44);
+}
+
+.cream{
+    background-color: RGB(197,184,137);
+}
+
+h3, h4, h5, h6 {
+    color: white;
+}
+
+.yellow img, .red img, .grey img, .cream img {
+    max-height: 400px;
+}
+
+.cookie-policy-btn {
+    font-family: inherit; 
+}
+
+
