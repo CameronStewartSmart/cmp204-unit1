@@ -5,7 +5,7 @@ function preparePage() {
     
     var divOne = document.getElementById("divOne");
     
-    divOne.addEventListener("click", function() {
+    divOne.addEventListener("click", function(){
         divOne.innerHTML="<h1>Billie Eilish Official Mask</h1><br><img style='width: 50%;' src='images/merchandise/Mask.png'>";
     });
     
@@ -48,9 +48,3 @@ function setupItemZA() {
         divTwo.innerHTML = divTwo.innerHTML + "<div class='row'> <div class='col-sm-4 text-center'> <img class='img-fluid' src='images/merchandise/" + names[i] + ".png'> <h4>" + names[i] + "</h4> </div> <div class='col-sm-4 text-center'> <img class='img-fluid' src='images/merchandise/" + names[i+1] + ".png'> <h4>" + names[i+1] + "</h4> </div> <div class='col-sm-4 text-center'> <img class='img-fluid' src='images/merchandise/" + names[i+2] + ".png'> <h4>" + names[i+2] + "</h4> </div> </div>";
     }
 }
-
-$(document).ready(function(){
-    $(".jumbotron").mouseenter(function(){
-        $(".jumbotron").addClass("setBlue");;
-    });
-});
